@@ -62,7 +62,7 @@
 		64E10B0D4D4F1F59525A5ED9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99A9A5B7F07F62D9853DE7A5 /* CNN-flutter-lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "CNN-flutter-lib.podspec"; path = "../CNN-flutter-lib.podspec"; sourceTree = "<group>"; };
+		99A9A5B7F07F62D9853DE7A5 /* CNN-flutter-lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "CNN-flutter-lib.podspec"; path = "../CNN-flutter-lib.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B27B95B81DFFAB2B64597991 /* Pods-CNN-flutter-lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNN-flutter-lib_Example.debug.xcconfig"; path = "Target Support Files/Pods-CNN-flutter-lib_Example/Pods-CNN-flutter-lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B9900A4DADD38ADF83B646FB /* Pods_CNN_flutter_lib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNN_flutter_lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F322B3D4D0A6BB1A65BD21F3 /* Pods-CNN-flutter-lib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNN-flutter-lib_Example.release.xcconfig"; path = "Target Support Files/Pods-CNN-flutter-lib_Example/Pods-CNN-flutter-lib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -305,15 +305,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CNN-flutter-lib_Example/Pods-CNN-flutter-lib_Example-frameworks.sh",
-				"${PODS_ROOT}/../../ios_frameworks/App.framework",
-				"${PODS_ROOT}/../../ios_frameworks/Flutter.framework",
 				"${PODS_ROOT}/../../ios_frameworks/shared_preferences_ios.framework",
+				"${PODS_ROOT}/../../ios_frameworks/Flutter.framework",
+				"${PODS_ROOT}/../../ios_frameworks/App.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences_ios.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

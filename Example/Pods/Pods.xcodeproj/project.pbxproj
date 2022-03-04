@@ -46,10 +46,13 @@
 
 /* Begin PBXFileReference section */
 		1062F7B70C8C85378772C426DE79E2DF /* Pods-CNN-flutter-lib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNN-flutter-lib_Example-umbrella.h"; sourceTree = "<group>"; };
+		1D049879F663EFA8720B10F0ABC80B81 /* FlutterPluginRegistrant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlutterPluginRegistrant.framework; path = ios_frameworks/FlutterPluginRegistrant.framework; sourceTree = "<group>"; };
 		21A9ACAA47D1BFA799A58009718BD3B2 /* Pods-CNN-flutter-lib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNN-flutter-lib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		23E4BE722E9FF8046BC4363B7C02C93A /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = ios_frameworks/App.framework; sourceTree = "<group>"; };
 		315D1EEA5F162A8B87DD874CA243F633 /* Pods-CNN-flutter-lib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNN-flutter-lib_Example.modulemap"; sourceTree = "<group>"; };
+		36FCA7DE7A9E6B0803BD971F8C807103 /* Pods_Runner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Runner.framework; path = ios_frameworks/Pods_Runner.framework; sourceTree = "<group>"; };
 		4F406DAC362ADEC18D1960099A86647A /* Pods-CNN-flutter-lib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNN-flutter-lib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		598A85099553C09C76328915074DD13F /* FlutterPluginRegistrant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlutterPluginRegistrant.framework; path = ios_frameworks/FlutterPluginRegistrant.framework; sourceTree = "<group>"; };
+		5BF16369837C6E8DB71C28AD8EABEADE /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ios_frameworks/Flutter.framework; sourceTree = "<group>"; };
 		5E8458491D4BACACEFEC60063CB36132 /* Pods-CNN-flutter-lib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNN-flutter-lib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		70A77A38E4D8675D23290911D964D8A1 /* Pods-CNN-flutter-lib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNN-flutter-lib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7121CF4488AEC29376016286B1E62425 /* Pods-CNN-flutter-lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNN-flutter-lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,21 +61,18 @@
 		7C759E2478F2A9485E9FC8C14527863E /* CNN-flutter-lib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "CNN-flutter-lib.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7CF2F773D11B90B1B42BF29FB7C7E401 /* Pods-CNN-flutter-lib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNN-flutter-lib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8316B76734678471ED9BC1BA4007E67D /* Pods-CNN-flutter-lib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNN-flutter-lib_Tests.modulemap"; sourceTree = "<group>"; };
+		8D2FAC4B0528B036D37311CDA2B1BA3B /* shared_preferences_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared_preferences_ios.framework; path = ios_frameworks/shared_preferences_ios.framework; sourceTree = "<group>"; };
 		907F57CBF29E012CF62C0334D4779136 /* CNN-flutter-lib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CNN-flutter-lib.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1D4289EF2BF720EEE59B6CE8FF05F48 /* Pods-CNN-flutter-lib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNN-flutter-lib_Example-dummy.m"; sourceTree = "<group>"; };
-		A812A736D3D6A923443A9075698F7DD9 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = ios_frameworks/App.framework; sourceTree = "<group>"; };
 		ABB9F625AE183BABA81E9916973D60F8 /* Pods-CNN-flutter-lib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNN-flutter-lib_Tests-Info.plist"; sourceTree = "<group>"; };
 		B57156CA3F81DF63555AEF968C260DE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C3797D62630C500F2629337FBC3E8904 /* Pods-CNN-flutter-lib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNN-flutter-lib_Example-Info.plist"; sourceTree = "<group>"; };
 		C53769319C121756C2B3FEDEAB67E2FB /* Pods-CNN-flutter-lib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNN-flutter-lib_Tests-dummy.m"; sourceTree = "<group>"; };
-		C63EFE7B40A093BD2D775E566EDEAF49 /* shared_preferences_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared_preferences_ios.framework; path = ios_frameworks/shared_preferences_ios.framework; sourceTree = "<group>"; };
 		CE8AC6EFCB4DEECDC60469586B44F0B5 /* Pods-CNN-flutter-lib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNN-flutter-lib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6779A07C0183412B7450634FAA8BF26 /* Pods-CNN-flutter-lib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNN-flutter-lib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6A278CF3CB69519DDB57B6DB411E5ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DC01F5202E447134BA43DF59946536ED /* Pods-CNN-flutter-lib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CNN-flutter-lib_Example"; path = Pods_CNN_flutter_lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA526F193FDE052A2F443FB33C5E9C43 /* Pods_Runner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Runner.framework; path = ios_frameworks/Pods_Runner.framework; sourceTree = "<group>"; };
-		EC08743AE5D30BF7E34AA6A2BF60CE65 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ios_frameworks/Flutter.framework; sourceTree = "<group>"; };
 		ED34CE1709DC1CE84BFCC5FC7EC93DD3 /* Pods-CNN-flutter-lib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CNN-flutter-lib_Tests"; path = Pods_CNN_flutter_lib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18E62366D647E56C0A171D46AA97548 /* Pods-CNN-flutter-lib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNN-flutter-lib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F542190EA32F295714976DA69FE5B4D6 /* Pods-CNN-flutter-lib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNN-flutter-lib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		4E6AFB2C2793C5B288B2FE463C64E053 /* CNN-flutter-lib */ = {
 			isa = PBXGroup;
 			children = (
-				75A32E3F82E410A6735911BD7AE03E6A /* Frameworks */,
+				66E0302DA334A43CF275DEB1E51F9D94 /* Frameworks */,
 				DD2AF8E4D8DAF3EDE72DEC3C74519A74 /* Pod */,
 				BCF4CA4BF3E50F587678D7849760B04C /* Support Files */,
 			);
@@ -151,14 +151,14 @@
 			path = "Target Support Files/Pods-CNN-flutter-lib_Example";
 			sourceTree = "<group>";
 		};
-		75A32E3F82E410A6735911BD7AE03E6A /* Frameworks */ = {
+		66E0302DA334A43CF275DEB1E51F9D94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A812A736D3D6A923443A9075698F7DD9 /* App.framework */,
-				EC08743AE5D30BF7E34AA6A2BF60CE65 /* Flutter.framework */,
-				598A85099553C09C76328915074DD13F /* FlutterPluginRegistrant.framework */,
-				EA526F193FDE052A2F443FB33C5E9C43 /* Pods_Runner.framework */,
-				C63EFE7B40A093BD2D775E566EDEAF49 /* shared_preferences_ios.framework */,
+				23E4BE722E9FF8046BC4363B7C02C93A /* App.framework */,
+				5BF16369837C6E8DB71C28AD8EABEADE /* Flutter.framework */,
+				1D049879F663EFA8720B10F0ABC80B81 /* FlutterPluginRegistrant.framework */,
+				36FCA7DE7A9E6B0803BD971F8C807103 /* Pods_Runner.framework */,
+				8D2FAC4B0528B036D37311CDA2B1BA3B /* shared_preferences_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

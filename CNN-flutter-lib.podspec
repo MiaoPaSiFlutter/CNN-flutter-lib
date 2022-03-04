@@ -39,5 +39,19 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.ios.vendored_frameworks = 'ios_frameworks/App.framework','ios_frameworks/Flutter.framework','ios_frameworks/FlutterPluginRegistrant.framework','ios_frameworks/Pods_Runner.framework','ios_frameworks/shared_preferences_ios.framework'
+#  s.ios.vendored_frameworks = 'ios_frameworks/App.framework','ios_frameworks/Flutter.framework','ios_frameworks/FlutterPluginRegistrant.framework','ios_frameworks/Pods_Runner.framework','ios_frameworks/shared_preferences_ios.framework'
+
+  p = Dir::open("ios_frameworks")
+  arr = Array.new
+  p.each do |f|
+    if f == '.' || f == '..'
+    else
+      arr.push('ios_frameworks/'+f)
+    end
+  end
+  s.ios.vendored_frameworks = arr
+
+
+
+  
 end
