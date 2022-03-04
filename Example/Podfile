@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CNN-flutter-lib_Example' do
+  pod 'CNN-flutter-lib', :path => '../'
+
+  target 'CNN-flutter-lib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

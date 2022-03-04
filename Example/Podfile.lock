@@ -1,0 +1,16 @@
+PODS:
+  - CNN-flutter-lib (0.1.0)
+
+DEPENDENCIES:
+  - CNN-flutter-lib (from `../`)
+
+EXTERNAL SOURCES:
+  CNN-flutter-lib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CNN-flutter-lib: 6591c5e7aad2107a686e5cfdd1282ae7c3d09a51
+
+PODFILE CHECKSUM: 6b0d4495964f8e47ac4d13b482db64bb867a9b9b
+
+COCOAPODS: 1.11.2

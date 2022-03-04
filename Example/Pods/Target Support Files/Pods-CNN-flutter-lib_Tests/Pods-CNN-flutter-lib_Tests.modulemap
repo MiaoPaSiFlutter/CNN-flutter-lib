@@ -1,0 +1,6 @@
+framework module Pods_CNN_flutter_lib_Tests {
+  umbrella header "Pods-CNN-flutter-lib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
