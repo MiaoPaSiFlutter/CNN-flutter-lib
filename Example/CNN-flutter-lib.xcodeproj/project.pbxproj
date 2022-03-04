@@ -306,10 +306,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CNN-flutter-lib_Example/Pods-CNN-flutter-lib_Example-frameworks.sh",
 				"${PODS_ROOT}/../../ios_frameworks/shared_preferences_ios.framework",
+				"${PODS_ROOT}/../../ios_frameworks/Flutter.framework",
+				"${PODS_ROOT}/../../ios_frameworks/App.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences_ios.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

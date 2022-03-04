@@ -177,9 +177,13 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/../../ios_frameworks/shared_preferences_ios.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/App.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/../../ios_frameworks/shared_preferences_ios.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/App.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

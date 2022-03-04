@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of CNN-flutter-lib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yuhui.Mr/CNN-flutter-lib",
+  "homepage": "https://github.com/MiaoPaSiFlutter/CNN-flutter-lib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yuhui.Mr": "zhuyuhui434@gmail.com"
   },
   "source": {
-    "git": "https://github.com/yuhui.Mr/CNN-flutter-lib.git",
+    "git": "https://github.com/MiaoPaSiFlutter/CNN-flutter-lib.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -22,6 +22,9 @@
   "ios": {
     "vendored_frameworks": [
       "ios_frameworks/shared_preferences_ios.framework",
+      "ios_frameworks/Flutter.framework",
+      "ios_frameworks/App.framework",
+      "ios_frameworks/Pods_Runner.framework",
       "ios_frameworks/FlutterPluginRegistrant.framework"
     ]
   }
