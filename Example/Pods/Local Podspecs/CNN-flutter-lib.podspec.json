@@ -22,9 +22,6 @@
   "ios": {
     "vendored_frameworks": [
       "ios_frameworks/shared_preferences_ios.framework",
-      "ios_frameworks/Flutter.framework",
-      "ios_frameworks/App.framework",
-      "ios_frameworks/Pods_Runner.framework",
       "ios_frameworks/FlutterPluginRegistrant.framework"
     ]
   }

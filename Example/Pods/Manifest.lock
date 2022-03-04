@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CNN-flutter-lib: 3f5ba03d036b88c236be34c80a79102f0f948c91
+  CNN-flutter-lib: f8347ee7dfaec92057bd0ce0a92cd11c00550a9f
 
 PODFILE CHECKSUM: 6b0d4495964f8e47ac4d13b482db64bb867a9b9b
 
