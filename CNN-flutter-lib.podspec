@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CNN-flutter-lib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of CNN-flutter-lib.'
 
 # This description is used to generate tags and improve search results.
@@ -51,6 +51,23 @@ TODO: Add long description of the pod here.
   end
   s.ios.vendored_frameworks = arr
 
-
-  
+  #mac电脑10.15.7操作系统和xcode12.0.1版本全面抛弃对arm64的Release-iphonesimulator模拟器支持。而支付宝SDK还兼容arm64。
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
+#各个 CPU 架构支持 iPhone 机型如下：
+#
+#ARMv6：iPhone、iPhone 3G、iPod 1G/2G；
+#
+#ARMv7：iPhone 3GS、iPhone 4、iPhone 4S、iPod 3G/4G/5G、iPad、iPad 2、iPad 3、iPad Mini；
+#
+#ARMv7s：iPhone 5、iPhone 5C、iPad 4；
+#
+#ARMv8/ARM64：iPhone 5S、iPad Air、Retina iPad Mini、iPhone 6 之后机型；
+#
+#i386是针对intel通用微处理器32位处理器
+#x86_64是针对x86架构的64位处理器
+#模拟器32位处理器测试需要i386架构，
+#模拟器64位处理器测试需要x86_64架构，
+#真机32位处理器需要armv7,或者armv7s架构，
+#真机64位处理器需要arm64架构。
+
