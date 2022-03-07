@@ -19,6 +19,6 @@ jobs:
       - name: 查看本地repo库
         run: pod repo
 
-      # - name: pod trunk push
-      # - run: pod trunk push CNN-flutter-lib.podspec --allow-warnings
+      - name: pod trunk push
+        run: pod trunk push CNN-flutter-lib.podspec --allow-warnings
 
