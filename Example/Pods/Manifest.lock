@@ -1,5 +1,5 @@
 PODS:
-  - CNN-flutter-lib (0.1.0)
+  - CNN-flutter-lib (0.1.3)
 
 DEPENDENCIES:
   - CNN-flutter-lib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CNN-flutter-lib: 597452bd57636b8f7375c780d537e0a63566f0c1
+  CNN-flutter-lib: a1e2c634cb7fda9120c2d79c85acb05797532c01
 
 PODFILE CHECKSUM: 6b0d4495964f8e47ac4d13b482db64bb867a9b9b
 

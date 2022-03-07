@@ -1,6 +1,6 @@
 {
   "name": "CNN-flutter-lib",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "A short description of CNN-flutter-lib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MiaoPaSiFlutter/CNN-flutter-lib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MiaoPaSiFlutter/CNN-flutter-lib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,11 +21,27 @@
   "source_files": "CNN-flutter-lib/Classes/**/*",
   "ios": {
     "vendored_frameworks": [
+      "ios_frameworks/Toast.framework",
+      "ios_frameworks/Reachability.framework",
+      "ios_frameworks/path_provider_ios.framework",
       "ios_frameworks/shared_preferences_ios.framework",
+      "ios_frameworks/OrderedSet.framework",
       "ios_frameworks/Flutter.framework",
+      "ios_frameworks/connectivity.framework",
+      "ios_frameworks/sqflite.framework",
       "ios_frameworks/App.framework",
+      "ios_frameworks/url_launcher_ios.framework",
       "ios_frameworks/Pods_Runner.framework",
+      "ios_frameworks/FMDB.framework",
+      "ios_frameworks/package_info_plus.framework",
+      "ios_frameworks/image_picker.framework",
+      "ios_frameworks/flutter_inappwebview.framework",
+      "ios_frameworks/fluttertoast.framework",
+      "ios_frameworks/webview_flutter_wkwebview.framework",
       "ios_frameworks/FlutterPluginRegistrant.framework"
     ]
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
   }
 }

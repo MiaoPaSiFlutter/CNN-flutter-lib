@@ -176,14 +176,40 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${PODS_ROOT}/../../ios_frameworks/Toast.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/Reachability.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/path_provider_ios.framework"
   install_framework "${PODS_ROOT}/../../ios_frameworks/shared_preferences_ios.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/OrderedSet.framework"
   install_framework "${PODS_ROOT}/../../ios_frameworks/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/connectivity.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/sqflite.framework"
   install_framework "${PODS_ROOT}/../../ios_frameworks/App.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/url_launcher_ios.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/FMDB.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/package_info_plus.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/image_picker.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/flutter_inappwebview.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/fluttertoast.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/webview_flutter_wkwebview.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${PODS_ROOT}/../../ios_frameworks/Toast.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/Reachability.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/path_provider_ios.framework"
   install_framework "${PODS_ROOT}/../../ios_frameworks/shared_preferences_ios.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/OrderedSet.framework"
   install_framework "${PODS_ROOT}/../../ios_frameworks/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/connectivity.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/sqflite.framework"
   install_framework "${PODS_ROOT}/../../ios_frameworks/App.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/url_launcher_ios.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/FMDB.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/package_info_plus.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/image_picker.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/flutter_inappwebview.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/fluttertoast.framework"
+  install_framework "${PODS_ROOT}/../../ios_frameworks/webview_flutter_wkwebview.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

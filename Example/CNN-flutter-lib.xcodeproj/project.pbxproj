@@ -305,15 +305,41 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CNN-flutter-lib_Example/Pods-CNN-flutter-lib_Example-frameworks.sh",
+				"${PODS_ROOT}/../../ios_frameworks/Toast.framework",
+				"${PODS_ROOT}/../../ios_frameworks/Reachability.framework",
+				"${PODS_ROOT}/../../ios_frameworks/path_provider_ios.framework",
 				"${PODS_ROOT}/../../ios_frameworks/shared_preferences_ios.framework",
+				"${PODS_ROOT}/../../ios_frameworks/OrderedSet.framework",
 				"${PODS_ROOT}/../../ios_frameworks/Flutter.framework",
+				"${PODS_ROOT}/../../ios_frameworks/connectivity.framework",
+				"${PODS_ROOT}/../../ios_frameworks/sqflite.framework",
 				"${PODS_ROOT}/../../ios_frameworks/App.framework",
+				"${PODS_ROOT}/../../ios_frameworks/url_launcher_ios.framework",
+				"${PODS_ROOT}/../../ios_frameworks/FMDB.framework",
+				"${PODS_ROOT}/../../ios_frameworks/package_info_plus.framework",
+				"${PODS_ROOT}/../../ios_frameworks/image_picker.framework",
+				"${PODS_ROOT}/../../ios_frameworks/flutter_inappwebview.framework",
+				"${PODS_ROOT}/../../ios_frameworks/fluttertoast.framework",
+				"${PODS_ROOT}/../../ios_frameworks/webview_flutter_wkwebview.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/path_provider_ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences_ios.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderedSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/connectivity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqflite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/url_launcher_ios.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/package_info_plus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/image_picker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_inappwebview.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fluttertoast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/webview_flutter_wkwebview.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
