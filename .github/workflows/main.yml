@@ -1,8 +1,9 @@
 name: 'update pob' # CI名称
-on:  # 触发条件是push操作
-  create:
-    tags: 
-      - v*
+on:   [push] # 触发条件是push操作
+# on:  # 触发条件是push操作
+#   create:
+#     tags: 
+#       - v*
 
 jobs:
   process:
@@ -15,11 +16,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: pod lib update
-        uses: wlixcc/pod-lib-update-action@1.0.0
-        with:
-          spec_repo_url: https://MiaoPaSiFlutter:${{secrets.ACCESS_TOKEN}}@github.com/MiaoPaSiFlutter/CNN-flutter-lib.git  
-          spec_file_path: /CNN-flutter-lib.podspec
-          lint_args: --allow-warnings
-          push_args: --allow-warnings
+      - name: 查看本地repo库
+        - run: pod repo
+
+      - name: pod trunk push
+        - run: pod trunk push CNN-flutter-lib.podspec --allow-warnings
 
