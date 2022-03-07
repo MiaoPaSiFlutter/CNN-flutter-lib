@@ -1,19 +1,19 @@
-name: 'update pob lib'
-on: 
+name: 'update pob' # CI名称
+on:  # 触发条件是push操作
   create:
     tags: 
       - v*
 
 jobs:
-  pod_lib_update:
+  process:
+    name: Update Pod
+    # 运行在哪个平台（这里是MacOS）
     runs-on: macos-latest
-
+    # 这个任务的步骤
     steps: 
+      # 拉取项目代码（这是一个官方提供的action，如需要使用项目仓库中代码用来构建、测试等的，使用checkout action可以自动拉取项目仓库的代码。）
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: pod lib update
-        uses: wlixcc/pod-lib-update-action@1.0.0
-        with:
-          spec_repo_url: https://wlixcc:${{secrets.ACCESS_TOKEN}}@github.com/wlixcc/ninja-specs.git  
-          spec_file_path: /ninja-kit.podspec
+      - run: |
+        pod trunk push CNN-flutter-lib.podspec --allow-warnings
